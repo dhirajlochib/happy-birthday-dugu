@@ -67,7 +67,7 @@ const readMsg = (text) => {
                 CTAtext.style.display = "block";
             }
 
-        }, 3000 * i);
+        }, 5000 * i);
 
     }
 };
@@ -189,7 +189,7 @@ button.addEventListener("click", function () {
         setTimeout(() => {
             msg.style.transform = "translateY(-100%)";
             flash.style.display = "none";
-        }, 3000);
+        }, 5000);
 
         setTimeout(() => {
             msgWindow.classList.add("fade-in");
